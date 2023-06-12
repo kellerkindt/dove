@@ -14,7 +14,7 @@ repository = "https://github.com/lulf/dove/"
 
 [dependencies]
 byteorder = "1.4"
-mio = { version = "0.7", features = ["tcp", "os-poll"] }
+mio = { version = "0.8.8", features = ["net", "os-poll"] }
 uuid = { version = "0.8", features = ["v4"] }
 rand = "0.8"
 log = "0.4"
